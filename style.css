@@ -30,17 +30,58 @@ font-family: 'Lato', sans-serif;
 background-color: #252532;
 }
 
-#movetxt {
-    -webkit-animation: moving 15s infinite;
-    animation: moving 15s infinite;
+a:link {
+  text-decoration: none;
+  color: #b8b8b8;
 }
 
-@-webkit-keyframes moving {
-    from {-webkit-transform: translateX(0vw);}
-    to {-webkit-transform: translateX(100vw);}
+a:hover {
+  color: #7289DA;
+  text-decoration: underline;
 }
 
-@keyframes moving {
-    from {transform: translateX(0vw);}
-    to {transform: translateX(100vw);}
+a:visited {
+  color: #7289DA;
+  text-decoration: none;
+}
+
+img {
+  float: center;
+}
+
+#game {
+  background-color: #1d1d28;
+}
+
+.button {
+  transition-duration: 0.4s;
+  color: #7289da;
+  background-color: #1f1f2c;
+  border: line;
+  border-radius: 12px;
+  font-size: 16px;
+  padding: 12px 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+}
+.button:hover {
+  background-color: #1f1f2c;
+  border-color: #5b1111;
+}
+
+.mainlistb {
+  transition-duration: 0.4s;
+  color: #7289da;
+  background-color: #1f1f2c;
+  border: line;
+  border-radius: 12px;
+  font-size: 16px;
+  padding: 12px 50px;
+  text-align: center;
+  text-decoration: none;
+  float: center;
+}
+.mainlistb:hover {
+  background-color: white;
 }

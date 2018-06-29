@@ -63,7 +63,7 @@ img {
   padding: 12px 50px;
   text-align: center;
   text-decoration: none;
-  margin: 0 auto;
+  margin: auto;
 }
 .button:hover {
   background-color: #1f1f2c;
@@ -80,7 +80,7 @@ img {
   padding: 12px 50px;
   text-align: center;
   text-decoration: none;
-  float: center;
+  margin: auto;
 }
 .mainlistb:hover {
   background-color: white;

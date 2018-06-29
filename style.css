@@ -1,5 +1,8 @@
 body {
   background-color: #1f1f2c;
+}
+
+#container{
   color:#c8c8c8;
   font-family: 'Open-sans', sans-serif;
 }
@@ -71,16 +74,17 @@ img {
 }
 
 .mainlistb {
+  display: inline-block;
   transition-duration: 0.4s;
   color: #7289da;
   background-color: #1f1f2c;
-  border: line;
+  border: solid;
   border-radius: 12px;
   font-size: 16px;
   padding: 12px 50px;
   text-align: center;
   text-decoration: none;
-  margin: auto;
+
 }
 .mainlistb:hover {
   background-color: white;

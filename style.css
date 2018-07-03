@@ -56,36 +56,21 @@ img {
   background-color: #1d1d28;
 }
 
-.button {
+button {
   transition-duration: 0.4s;
-  color: #7289da;
-  background-color: #1f1f2c;
-  border: line;
-  border-radius: 12px;
-  font-size: 16px;
-  padding: 12px 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: auto;
-}
-.button:hover {
-  background-color: #1f1f2c;
-  border-color: #5b1111;
-}
-
-.mainlistb {
-  display: inline-block;
-  transition-duration: 0.4s;
-  color: #7289da;
+  color: #720da5;
   background-color: #1f1f2c;
   border: solid;
   border-radius: 12px;
   font-size: 16px;
   padding: 12px 50px;
-  text-align: center;
-  text-decoration: none;
-
+  display: inline-block;
+  margin: 0 auto;
 }
 .mainlistb:hover {
   background-color: white;
+}
+
+#mainlist{
+    text-align: center;
 }
